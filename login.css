@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    background-color: white;
+    position: relative;
+    left:10vw;
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    flex:1.6;
+    background-color: #00AD7F;
+}
+.second{
+    background-color: #FFFFFF;
+    flex:4;
+}
+.welcome{
+    color: white;
+    position: relative;
+    top: 100px;
+    font-weight:larger;
+    font-size:30px;
+    text-align:center; 
+}
+pre{
+    position: absolute;
+    top:170px;
+    left: 25px;
+    color:white;
+    line-height: 150%;
+}
+.text_position{
+    position: relative;
+    /* left:30px; */
+}
+.button{
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: absolute;
+    top:270px; 
+    width:190px;
+    left: 70px;
+    background-color: #00AD7F;
+    border-radius: 30px;
+    border:1px solid white;
+    color:white;
+    
+}
+.create{
+    color:#00AD7F;
+    text-align: center;
+    position: relative;
+    top:90px;
+    font-weight: bolder;
+    
+    
+}
+.fa{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    padding: 5px;
+    
+
+}
+.icon{
+    position: relative;
+    top:120px;
+    left:320px;
+}
+small{
+    color:gray;
+    text-align: center;
+}
+.small{
+    position: relative;
+    top:50px;
+    right:50px;
+  
+}
+input{
+    padding:13px;
+    width:390px;
+    background-color: #E6F8E8;
+    border:none;
+}
+.form{
+    position: relative;
+    right:80px;
+    top:50px;
+}
+.button1{
+    position: relative;
+    right:100px;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #00AD7F;
+    border-radius: 30px;
+    border:1px solid white;
+    color:white;
+    width: 190px;
+    top:140px;
+    right:10px;
+}
+body {
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
