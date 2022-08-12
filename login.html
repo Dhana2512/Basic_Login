@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="second">
-            <div >
+            <div class="second_width">
                 <h1 class="create button_class">Create Account</h1>
                 <div class="button_class">
                     <span>
@@ -43,19 +43,32 @@
                     <small>or use your email for registration</small>
                     <div class="small">
                         <form class="form" action="action_page.php" method="GET">
-                            <input type="text" placeholder="Name" /><br><br>
+                            <!-- <input type="text" placeholder="Name" /><br><br>
                             <input type="email" placeholder="Email" /><br><br>
-                            <input type="password" placeholder="Password" /><br><br>
+                            <input type="password" placeholder="Password" /><br><br> -->
+                            <div class="input-icons">
+                                    <i class="fa fa-user icon">
+                                    </i>
+                                <input class="input-field" 
+                                       type="text" 
+                                       placeholder="Username">
+                            </div>
+                  
+                            <div class="input-icons">
+                                <i class="fa fa-envelope icon">
+                              </i>
+                                <input class="input-field" 
+                                       type="text"
+                                       placeholder="Email">
+                            </div>
+                  
+                            <div class="input-icons">
+                                <i class="fa fa-lock icon"></i>
+                                <input class="input-field" 
+                                       type="password"
+                                       placeholder="Password">
+                            </div>
                             
-                            <!-- <div class="input-icons">
-                                    <i class="fa fa-user icon fa-bg"></i>
-                                    <input class="input-field" placeholder="Name" type="text">
-                                    <i class="fa fa-envelope icon fa-bg"></i>
-                                    <input class="input-field" type="text">
-                                    <i class="fa fa-phone icon fa-bg"></i>
-                                    <input class="input-field" type="text">
-                                    
-                                </div>                                   -->
                         </form>
                     </div>
                 </div>
